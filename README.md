@@ -1,5 +1,5 @@
 # restart-script
-Easy installation for SHIFT restart-script
+Easy installation for SHIFT restart-script on startup.
 
 #Purpose
 This script is for when your vps providers decides on their own restart your server. Then you need a way to restart your node, this script help you accomplish that, will restart your node in the server startup.
