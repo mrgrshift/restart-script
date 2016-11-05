@@ -8,7 +8,7 @@ This script is for when your vps providers decides on their own restart your ser
 <b>This script is for really new vps installation.</b><br>
 <b>This script will remove everything from rc.local to let only this script starts.</b><br>
 <b>This script is intented for newbies.</b><br>
-<b>This script works with ubuntu 14.04</b>
+<b>This script works with Ubuntu 14.04</b>
 
 #Requisites
 
@@ -28,7 +28,7 @@ bash install.sh
 <br>
 <br>
 ##Side notes
-If you are running a newer version of ubuntu you need to check if rc.local is no longer used. If so, you need to do an extra configurations. Ubuntu newer versions are now using systemd, and rc.local is now considered a service and it is turned off by default. You can turn rc.local "on" doing the following steps:
+If you are running a newer version of Ubuntu you need to check if rc.local is no longer used. If so, you need to do an extra configuration. Ubuntu newer versions are now using systemd, and rc.local is now considered a service and it is turned off by default. You can turn rc.local "on" doing the following steps:
 ```
 sudo nano /etc/systemd/system/rc-local.service
 ```
