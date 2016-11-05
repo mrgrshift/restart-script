@@ -18,6 +18,7 @@ This script is for when your vps providers decides on their own restart your ser
 #Installation
 Simply run the following commands:<br>
 ```
+cd ~/
 git clone https://github.com/mrgrshift/restart-script
 cd restart-script
 bash install.sh
